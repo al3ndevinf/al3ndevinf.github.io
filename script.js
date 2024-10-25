@@ -4,15 +4,15 @@ const partes = [
     { img: "img/raton.png", correcta: "Ratón", opciones: ["CPU", "Ratón", "Parlantes"] },
     { img: "img/monitor.png", correcta: "Monitor", opciones: ["Cámara Web", "Monitor", "Micrófono"] },
     { img: "img/parlantes.png", correcta: "Parlantes", opciones: ["Audífonos", "Parlantes", "CPU"] },
-    { img: "img/impresora.png", correcta: "impresora", opciones: ["Impresora", "Teléfono", "CPU"] },
+    { img: "img/impresora.png", correcta: "Impresora", opciones: ["Impresora", "Teléfono", "CPU"] },
     { img: "img/camara.png", correcta: "Cámara Web", opciones: ["Teclado", "CPU", "Cámara Web"] },
     { img: "img/cpu.png", correcta: "CPU", opciones: ["Ratón", "Audífonos", "CPU"] },
     { img: "img/microfono.png", correcta: "Micrófono", opciones: ["Micrófono", "Parlantes", "Monitor"] },
-    { img: "img/radio.png", correcta: "radio", opciones: ["radio", "Parlantes", "Monitor"] },
+    { img: "img/radio.png", correcta: "Radio", opciones: ["Radio", "Parlantes", "Monitor"] },
     { img: "img/tv.png", correcta: "Televisor", opciones: ["Televisor", "Cámara Web", "Audífonos"] },
-    { img: "img/celular.png", correcta: "celular", opciones: ["celular", "Cámara Web", "Audífonos"] },
-    { img: "img/telefono.png", correcta: "telefono", opciones: ["Monitor", "Teléfono", "Audífonos"] },
-    { img: "img/tablet.png", correcta: "tablet", opciones: ["Teclado", "tablet", "Audífonos"] },
+    { img: "img/celular.png", correcta: "Celular", opciones: ["Celular", "Cámara Web", "Audífonos"] },
+    { img: "img/telefono.png", correcta: "Teléfono", opciones: ["Monitor", "Teléfono", "Audífonos"] },
+    { img: "img/tablet.png", correcta: "Tablet", opciones: ["Teclado", "Tablet", "Audífonos"] },
     { img: "img/audifonos.png", correcta: "Audífonos", opciones: ["Teclado", "Cámara Web", "Audífonos"] }
 ];
 
