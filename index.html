@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Partes de la Computadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Pantalla de bienvenida -->
+    <div class="inicio" id="inicio">
+        <center>
+            <h1 class="txt1">BIENVENIDOS A COMPUTACION</h1>
+            <input type="text" id="nombreJugador" placeholder="Ingresa tu nombre"><br>
+            <button onclick="iniciarJuego()">Comenzar</button>
+        </center>
+    </div>
+
+    <!-- Pantalla del juego -->
+    <div class="juego" id="juego" style="display: none;">
+        <h1 class="txt1">Nivel <span id="nivel">1</span></h1>
+        <img id="imagen" src="img/teclado.png" alt="Parte de la Computadora">
+        <div class="buttons-container" id="opciones"></div>
+    </div>
+
+    <!-- Pantalla de finalización -->
+    <div class="final" id="final" style="display: none;">
+        <div>
+            <img src="img/feliz.png" alt="" height="200">
+        </div>
+        <h1 class="txt2">¡Felicidades, <span id="nombreFinal"></span>!</h1>
+        <h2 class="txt1">Has completado el juego.</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
