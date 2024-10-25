@@ -4,7 +4,7 @@ const partes = [
     { img: "img/raton.png", correcta: "Ratón", opciones: ["CPU", "Ratón", "Parlantes"] },
     { img: "img/monitor.png", correcta: "Monitor", opciones: ["Cámara Web", "Monitor", "Micrófono"] },
     { img: "img/parlantes.png", correcta: "Parlantes", opciones: ["Audífonos", "Parlantes", "CPU"] },
-    { img: "img/impresora.png", correcta: "Impresora", opciones: ["Impresora", "Teléfono", "CPU"] },
+    { img: "img/impresora.png", correcta: "Impresora", opciones: ["Monitor", "Teléfono", "Impresora"] },
     { img: "img/camara.png", correcta: "Cámara Web", opciones: ["Teclado", "CPU", "Cámara Web"] },
     { img: "img/cpu.png", correcta: "CPU", opciones: ["Ratón", "Audífonos", "CPU"] },
     { img: "img/microfono.png", correcta: "Micrófono", opciones: ["Micrófono", "Parlantes", "Monitor"] },
